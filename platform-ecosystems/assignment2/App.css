@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+table {
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 1000px;
+  text-align: left;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#pages {
+  margin-left: 5px;
+}
+
+#continentSelect {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+#headerTable:hover {
+  cursor: pointer;
+}
+
+input[type=checkbox] {
+  margin-left: 10px;
+}
+
+label {
+  margin-right: 10px;
+}

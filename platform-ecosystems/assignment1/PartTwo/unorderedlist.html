@@ -1,0 +1,21 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unordered list</title>
+        <link rel="stylesheet" type="text/css" href="liststyles.css">
+        <script type="text/javascript" src='listmain.js'></script>
+    </head>
+
+    <body>
+      <input type="text" id="country" placeholder="Country" onkeyup="enterKey(event)">
+      <button onclick="addLi()" id="add">
+        Add
+      </button>
+      <br>
+      <input type="text" id="search" onkeyup="searching()" placeholder="Search">
+      <ul id="list"></ul>
+    </body>
+</html>
