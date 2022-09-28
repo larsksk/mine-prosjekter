@@ -1,0 +1,21 @@
+1.
+The file readers complexity is O(n), where n is the number of tasks in the project.
+
+Time complexity for no cycles:
+The DFS's time complexity, since these are directed graphs with adjacency lists, are O(V)+O(E)=O(V+E).
+Where V are the number of nodes, and E are edges.
+
+With cycle:
+O(1)
+
+The printer's time complexity is O(n) + O(1)*x = O(n+x), where n is the minimal time minimal time for the project to
+complete, and x is the number of changes. A change occurs when there is a task stopping or starting for a given
+time interval.
+
+2.
+The requirements for the input graph for the project to be successfully planned is
+that it must not contain any cycles, it has to be directed, and contain only one component.
+
+
+3.
+Used DFS f.eks to find cycles, connectivity, shortest path.
