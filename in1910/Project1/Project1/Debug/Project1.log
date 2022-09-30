@@ -1,4 +1,0 @@
-﻿  code.cpp
-d:\skole\in1910\project1\project1\code.cpp(155): warning C4715: 'is_prime': not all control paths return a value
-d:\skole\in1910\project1\project1\code.cpp(118): warning C4715: 'ArrayList::pop': not all control paths return a value
-  Project1.vcxproj -> D:\Skole\IN1910\Project1\Debug\Project1.exe
